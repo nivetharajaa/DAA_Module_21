@@ -15,9 +15,9 @@ To write a python program to implement pattern matching on the given string usin
 4. At each position, compare characters of the pattern with the corresponding substring in the 
    text.
 
-5.If all characters match, return the current index.
+5. If all characters match, return the current index.
 
-6.If no match is found after full traversal, return -1.
+6. If no match is found after full traversal, return -1.
 
 ## Program:
 ```
