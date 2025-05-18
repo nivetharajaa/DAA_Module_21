@@ -5,23 +5,24 @@ To write a python program to find minimum steps to reach to specific cell in min
 
 
 ## Algorithm:
-1.Define all 8 possible moves of a knight using dx and dy arrays.
+1. Define all 8 possible moves of a knight using dx and dy arrays.
 
-2.Create a queue and enqueue the knight's initial position with distance 0.
+2. Create a queue and enqueue the knight's initial position with distance 0.
 
-3.Mark the initial position as visited.
+3. Mark the initial position as visited.
 
 4. While the queue is not empty, dequeue the front cell.
  
-5.If the current cell is the target position, return its distance.
+5. If the current cell is the target position, return its distance.
 
-6.For each of the 8 possible knight moves, check if the new position is within bounds and not visited.
+6. For each of the 8 possible knight moves, check if the new position is within bounds and not 
+   visited.
 
 7. If valid, mark it as visited and enqueue it with distance incremented by 1.
  
 8. Repeat the process until the target is found or the queue becomes empty.
 
-9.If the target is unreachable, return infinity (inf).
+9. If the target is unreachable, return infinity (inf).
 
 
 ## Program:
